@@ -1,0 +1,1000 @@
+[php][INFO] [2017-06-20 13:10:43] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[php][INFO] [2017-06-20 13:10:43] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11dc3715, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@69930714, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a52f2a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78047b92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8909f18]
+[php][INFO] [2017-06-20 13:10:43] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring.xml]
+[php][INFO] [2017-06-20 13:10:44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[php][INFO] [2017-06-20 13:10:44] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(514) | Refreshing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:10:44 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:10:45] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[php][ERROR] [2017-06-20 13:10:45] com.alibaba.druid.pool.DruidAbstractDataSource.setMaxIdle(873) | maxIdle is deprecated
+[php][INFO] [2017-06-20 13:10:45] com.alibaba.druid.pool.DruidDataSource.init(450) | {dataSource-1} inited
+[php][INFO] [2017-06-20 13:10:46] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[php][INFO] [2017-06-20 13:10:46] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[php][INFO] [2017-06-20 13:10:46] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[php][INFO] [2017-06-20 13:10:46] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:46] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:10:47] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][ERROR] [2017-06-20 13:11:17] com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(1217) | create connection error
+java.sql.SQLException: Access denied for user 'root'@'yf-changjinj.zysoft.com.cn' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1659)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1206)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2234)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2265)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2064)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:790)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:44)
+	at sun.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:395)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:325)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:142)
+	at com.alibaba.druid.filter.stat.StatFilter.connection_connect(StatFilter.java:211)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_connect(FilterChainImpl.java:136)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1271)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1325)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:1215)
+[php][INFO] [2017-06-20 13:11:42] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[php][INFO] [2017-06-20 13:11:42] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11dc3715, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@69930714, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a52f2a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78047b92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8909f18]
+[php][INFO] [2017-06-20 13:11:42] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring.xml]
+[php][INFO] [2017-06-20 13:11:43] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[php][INFO] [2017-06-20 13:11:43] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(514) | Refreshing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:11:43 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:11:43] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[php][ERROR] [2017-06-20 13:11:43] com.alibaba.druid.pool.DruidAbstractDataSource.setMaxIdle(873) | maxIdle is deprecated
+[php][INFO] [2017-06-20 13:11:43] com.alibaba.druid.pool.DruidDataSource.init(450) | {dataSource-1} inited
+[php][INFO] [2017-06-20 13:11:44] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[php][INFO] [2017-06-20 13:11:44] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[php][INFO] [2017-06-20 13:11:44] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[php][INFO] [2017-06-20 13:11:44] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[php][INFO] [2017-06-20 13:11:45] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[php][INFO] [2017-06-20 13:11:45] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[php][INFO] [2017-06-20 13:11:45] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[php][INFO] [2017-06-20 13:11:45] org.hibernate.cache.spi.UpdateTimestampsCache.<init>(72) | HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+[php][WARN] [2017-06-20 13:11:45] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+[php][INFO] [2017-06-20 13:11:45] org.hibernate.cache.internal.StandardQueryCache.<init>(90) | HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+[php][WARN] [2017-06-20 13:11:45] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.validator.internal.util.Version.<clinit>(27) | HV000001: Hibernate Validator 5.1.2.Final
+[php][WARN] [2017-06-20 13:11:46] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser]; using defaults.
+[php][WARN] [2017-06-20 13:11:46] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctRole]; using defaults.
+[php][WARN] [2017-06-20 13:11:46] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser.acctRoles]; using defaults.
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_role
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user_role
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_role
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user_role
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_role
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.DatabaseMetadata.getTableMetadata(147) | HHH000262: Table not found: acct_user_role
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(261) | HHH000388: Unsuccessful: create table ssh.acct_role (id varchar(36) not null, name varchar(255) not null, primary key (id))
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(262) | Unknown database 'ssh'
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(261) | HHH000388: Unsuccessful: create table ssh.acct_user (id varchar(36) not null, nick_name varchar(255) not null, register_time datetime, telephone varchar(255), primary key (id))
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(262) | Unknown database 'ssh'
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(261) | HHH000388: Unsuccessful: create table ssh.acct_user_role (user_id varchar(36) not null, role_id varchar(36) not null, primary key (user_id, role_id))
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(262) | Unknown database 'ssh'
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(261) | HHH000388: Unsuccessful: alter table ssh.acct_user_role add constraint FK_gd0hahfsqct79bsfxx70oli30 foreign key (role_id) references ssh.acct_role (id)
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(262) | Table 'ssh.acct_user_role' doesn't exist
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(261) | HHH000388: Unsuccessful: alter table ssh.acct_user_role add constraint FK_fqvt7bddsoq4lc9b7vpwlnbxu foreign key (user_id) references ssh.acct_user (id)
+[php][ERROR] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(262) | Table 'ssh.acct_user_role' doesn't exist
+[php][INFO] [2017-06-20 13:11:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[php][INFO] [2017-06-20 13:11:46] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-06-20 13:11:43",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:769342184, ConnectTime:"2017-06-20 13:11:44", UseCount:2, LastActiveTime:"2017-06-20 13:11:46"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[php][WARN] [2017-06-20 13:11:47] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(144) | SQL Error: 1146, SQLState: 42S02
+[php][ERROR] [2017-06-20 13:11:47] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(146) | Table 'ssh.acct_user' doesn't exist
+[php][WARN] [2017-06-20 13:11:47] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning(232) | SQL Warning Code: 1146, SQLState: 42S02
+[php][WARN] [2017-06-20 13:11:47] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning(233) | Table 'ssh.acct_user' doesn't exist
+[php][INFO] [2017-06-20 13:11:47] org.springframework.context.support.AbstractApplicationContext.doClose(869) | Closing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:11:43 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:11:47] com.alibaba.druid.pool.DruidDataSource.close(982) | {dataSource-1} closed
+[php][INFO] [2017-06-20 13:13:39] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[php][INFO] [2017-06-20 13:13:39] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11dc3715, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@69930714, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a52f2a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78047b92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8909f18]
+[php][INFO] [2017-06-20 13:13:39] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring.xml]
+[php][INFO] [2017-06-20 13:13:40] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[php][INFO] [2017-06-20 13:13:40] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(514) | Refreshing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:13:40 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:13:40] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[php][ERROR] [2017-06-20 13:13:40] com.alibaba.druid.pool.DruidAbstractDataSource.setMaxIdle(873) | maxIdle is deprecated
+[php][INFO] [2017-06-20 13:13:41] com.alibaba.druid.pool.DruidDataSource.init(450) | {dataSource-1} inited
+[php][INFO] [2017-06-20 13:13:41] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[php][INFO] [2017-06-20 13:13:41] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[php][INFO] [2017-06-20 13:13:41] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[php][INFO] [2017-06-20 13:13:41] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[php][INFO] [2017-06-20 13:13:42] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[php][INFO] [2017-06-20 13:13:42] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[php][INFO] [2017-06-20 13:13:42] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.cache.spi.UpdateTimestampsCache.<init>(72) | HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+[php][WARN] [2017-06-20 13:13:43] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.cache.internal.StandardQueryCache.<init>(90) | HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+[php][WARN] [2017-06-20 13:13:43] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.validator.internal.util.Version.<clinit>(27) | HV000001: Hibernate Validator 5.1.2.Final
+[php][WARN] [2017-06-20 13:13:43] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser]; using defaults.
+[php][WARN] [2017-06-20 13:13:43] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctRole]; using defaults.
+[php][WARN] [2017-06-20 13:13:43] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser.acctRoles]; using defaults.
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_role
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [name, id]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_user
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [nick_name, telephone, id, register_time]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_user_role
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [user_id, role_id]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: [fk_gd0hahfsqct79bsfxx70oli30, fkrcrkadsi1843emalkfne9emtc, fk_fqvt7bddsoq4lc9b7vpwlnbxu, fk4fc7228fg6ap9vpj1x0nrtk1k]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [fk_gd0hahfsqct79bsfxx70oli30, primary]
+[php][INFO] [2017-06-20 13:13:43] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[php][INFO] [2017-06-20 13:13:44] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-06-20 13:13:40",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1996787860, ConnectTime:"2017-06-20 13:13:42", UseCount:2, LastActiveTime:"2017-06-20 13:13:43"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[php][INFO] [2017-06-20 13:13:45] com.antin.test.TestUserService.save(40) | "9d36034f-2a31-4588-b1aa-93fd8aaac329"
+[php][INFO] [2017-06-20 13:13:45] org.springframework.context.support.AbstractApplicationContext.doClose(869) | Closing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:13:40 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:13:45] com.alibaba.druid.pool.DruidDataSource.close(982) | {dataSource-1} closed
+[php][INFO] [2017-06-20 13:14:09] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[php][INFO] [2017-06-20 13:14:09] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11dc3715, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@69930714, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7a52f2a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@78047b92, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8909f18]
+[php][INFO] [2017-06-20 13:14:09] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring.xml]
+[php][INFO] [2017-06-20 13:14:10] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[php][INFO] [2017-06-20 13:14:10] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(514) | Refreshing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:14:10 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:14:10] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[php][ERROR] [2017-06-20 13:14:10] com.alibaba.druid.pool.DruidAbstractDataSource.setMaxIdle(873) | maxIdle is deprecated
+[php][INFO] [2017-06-20 13:14:11] com.alibaba.druid.pool.DruidDataSource.init(450) | {dataSource-1} inited
+[php][INFO] [2017-06-20 13:14:11] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[php][INFO] [2017-06-20 13:14:11] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[php][INFO] [2017-06-20 13:14:11] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[php][INFO] [2017-06-20 13:14:11] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[php][INFO] [2017-06-20 13:14:12] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[php][INFO] [2017-06-20 13:14:12] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[php][INFO] [2017-06-20 13:14:12] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.cache.spi.UpdateTimestampsCache.<init>(72) | HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+[php][WARN] [2017-06-20 13:14:13] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.spi.UpdateTimestampsCache]; using defaults.
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.cache.internal.StandardQueryCache.<init>(90) | HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+[php][WARN] [2017-06-20 13:14:13] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [org.hibernate.cache.internal.StandardQueryCache]; using defaults.
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.validator.internal.util.Version.<clinit>(27) | HV000001: Hibernate Validator 5.1.2.Final
+[php][WARN] [2017-06-20 13:14:13] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser]; using defaults.
+[php][WARN] [2017-06-20 13:14:13] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctRole]; using defaults.
+[php][WARN] [2017-06-20 13:14:13] org.hibernate.cache.ehcache.AbstractEhcacheRegionFactory.getCache(179) | HHH020003: Could not find a specific ehcache configuration for cache named [com.antin.entity.AcctUser.acctRoles]; using defaults.
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_role
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [name, id]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_user
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [nick_name, telephone, id, register_time]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: php.acct_user_role
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [user_id, role_id]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: [fk_gd0hahfsqct79bsfxx70oli30, fkrcrkadsi1843emalkfne9emtc, fk_fqvt7bddsoq4lc9b7vpwlnbxu, fk4fc7228fg6ap9vpj1x0nrtk1k]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [fk_gd0hahfsqct79bsfxx70oli30, primary]
+[php][INFO] [2017-06-20 13:14:13] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[php][INFO] [2017-06-20 13:14:13] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-06-20 13:14:10",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1996787860, ConnectTime:"2017-06-20 13:14:12", UseCount:2, LastActiveTime:"2017-06-20 13:14:13"}
+	]
+}] of Hibernate SessionFactory for HibernateTransactionManager
+[php][INFO] [2017-06-20 13:14:15] net.sf.ehcache.util.UpdateChecker.doCheck(98) | New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+[php][INFO] [2017-06-20 13:14:15] org.springframework.context.support.AbstractApplicationContext.doClose(869) | Closing org.springframework.context.support.GenericApplicationContext@5c909414: startup date [Tue Jun 20 13:14:10 CST 2017]; root of context hierarchy
+[php][INFO] [2017-06-20 13:14:15] com.alibaba.druid.pool.DruidDataSource.close(982) | {dataSource-1} closed

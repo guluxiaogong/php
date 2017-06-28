@@ -1,0 +1,890 @@
+[php][INFO] [2017-06-27 16:12:16] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.<init>(120) | Process identifier=hconnection-0x6f7923a5 connecting to ZooKeeper ensemble=localhost:2181
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:host.name=YF-changjinJ.zysoft.com.cn
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.version=1.8.0_51
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.vendor=Oracle Corporation
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.home=D:\Program Files\Java\jdk1.8.0_51\jre
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.class.path=D:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;F:\CommonDevelop\hadoop\project\zoe\php\target\classes;F:\CommonDevelop\maven\repository\org\springframework\spring-core\4.1.9.RELEASE\spring-core-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-web\4.1.9.RELEASE\spring-web-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-aop\4.1.9.RELEASE\spring-aop-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-tx\4.1.9.RELEASE\spring-tx-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-webmvc\4.1.9.RELEASE\spring-webmvc-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-expression\4.1.9.RELEASE\spring-expression-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-context\4.1.9.RELEASE\spring-context-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-beans\4.1.9.RELEASE\spring-beans-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-orm\4.1.9.RELEASE\spring-orm-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-jdbc\4.1.9.RELEASE\spring-jdbc-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-core\4.3.8.Final\hibernate-core-4.3.8.Final.jar;F:\CommonDevelop\maven\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;F:\CommonDevelop\maven\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;F:\CommonDevelop\maven\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;F:\CommonDevelop\maven\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\CommonDevelop\maven\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;F:\CommonDevelop\maven\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;F:\CommonDevelop\maven\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;F:\CommonDevelop\maven\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;F:\CommonDevelop\maven\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;F:\CommonDevelop\maven\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-ehcache\4.3.8.Final\hibernate-ehcache-4.3.8.Final.jar;F:\CommonDevelop\maven\repository\net\sf\ehcache\ehcache-core\2.4.3\ehcache-core-2.4.3.jar;F:\CommonDevelop\maven\repository\net\sf\ehcache\ehcache\2.9.0\ehcache-2.9.0.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-validator\5.1.2.Final\hibernate-validator-5.1.2.Final.jar;F:\CommonDevelop\maven\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;F:\CommonDevelop\maven\repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar;F:\CommonDevelop\maven\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;F:\CommonDevelop\maven\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;F:\CommonDevelop\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\CommonDevelop\maven\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;F:\CommonDevelop\maven\repository\com\alibaba\druid\0.2.9\druid-0.2.9.jar;F:\CommonDevelop\maven\repository\com\alibaba\fastjson\1.2.3\fastjson-1.2.3.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-core\2.5.0\jackson-core-2.5.0.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-databind\2.5.0\jackson-databind-2.5.0.jar;F:\CommonDevelop\maven\repository\org\aspectj\aspectjweaver\1.8.4\aspectjweaver-1.8.4.jar;F:\CommonDevelop\maven\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;F:\CommonDevelop\maven\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;F:\CommonDevelop\maven\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\CommonDevelop\maven\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop\2.3.0.RELEASE-hadoop26\spring-data-hadoop-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-core\2.3.0.RELEASE-hadoop26\spring-data-hadoop-core-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-context-support\4.2.4.RELEASE\spring-context-support-4.2.4.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-hive\2.3.0.RELEASE-hadoop26\spring-data-hadoop-hive-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\batch\spring-batch-core\3.0.6.RELEASE\spring-batch-core-3.0.6.RELEASE.jar;F:\CommonDevelop\maven\repository\com\ibm\jbatch\com.ibm.jbatch-tck-spi\1.0\com.ibm.jbatch-tck-spi-1.0.jar;F:\CommonDevelop\maven\repository\javax\batch\javax.batch-api\1.0\javax.batch-api-1.0.jar;F:\CommonDevelop\maven\repository\com\thoughtworks\xstream\xstream\1.4.7\xstream-1.4.7.jar;F:\CommonDevelop\maven\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;F:\CommonDevelop\maven\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;F:\CommonDevelop\maven\repository\org\springframework\batch\spring-batch-infrastructure\3.0.6.RELEASE\spring-batch-infrastructure-3.0.6.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\retry\spring-retry\1.1.0.RELEASE\spring-retry-1.1.0.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-batch\2.3.0.RELEASE-hadoop26\spring-data-hadoop-batch-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-hbase\2.3.0.RELEASE-hadoop26\spring-data-hadoop-hbase-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-pig\2.3.0.RELEASE-hadoop26\spring-data-hadoop-pig-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-store\2.3.0.RELEASE-hadoop26\spring-data-hadoop-store-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-common\2.6.0\hadoop-yarn-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-api\2.6.0\hadoop-yarn-api-2.6.0.jar;F:\CommonDevelop\maven\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;F:\CommonDevelop\maven\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;F:\CommonDevelop\maven\repository\javax\activation\activation\1.1\activation-1.1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-xc\1.9.13\jackson-xc-1.9.13.jar;F:\CommonDevelop\maven\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;F:\CommonDevelop\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;F:\CommonDevelop\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-messaging\4.2.4.RELEASE\spring-messaging-4.2.4.RELEASE.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-distcp\2.6.0\hadoop-distcp-2.6.0.jar;F:\CommonDevelop\maven\repository\org\kitesdk\kite-data-core\1.0.0\kite-data-core-1.0.0.jar;F:\CommonDevelop\maven\repository\org\kitesdk\kite-hadoop-compatibility\1.0.0\kite-hadoop-compatibility-1.0.0.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-avro\1.4.1\parquet-avro-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-column\1.4.1\parquet-column-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-common\1.4.1\parquet-common-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-encoding\1.4.1\parquet-encoding-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-generator\1.4.1\parquet-generator-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-hadoop\1.4.1\parquet-hadoop-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-jackson\1.4.1\parquet-jackson-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-format\2.0.0\parquet-format-2.0.0.jar;F:\CommonDevelop\maven\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-hdfs\2.6.0\hadoop-hdfs-2.6.0.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;F:\CommonDevelop\maven\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;F:\CommonDevelop\maven\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;F:\CommonDevelop\maven\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;F:\CommonDevelop\maven\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;F:\CommonDevelop\maven\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;F:\CommonDevelop\maven\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.6.0\hadoop-mapreduce-client-core-2.6.0.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-config\2.3.0.RELEASE-hadoop26\spring-data-hadoop-config-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-streaming\2.6.0\hadoop-streaming-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.6.0\hadoop-mapreduce-client-jobclient-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.6.0\hadoop-mapreduce-client-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-client\2.6.0\hadoop-yarn-client-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-server-common\2.6.0\hadoop-yarn-server-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.6.0\hadoop-mapreduce-client-shuffle-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-server-nodemanager\2.6.0\hadoop-yarn-server-nodemanager-2.6.0.jar;F:\CommonDevelop\maven\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;F:\CommonDevelop\maven\repository\org\xerial\snappy\snappy-java\1.1.0\snappy-java-1.1.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-common\2.7.3\hadoop-common-2.7.3.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-annotations\2.7.3\hadoop-annotations-2.7.3.jar;D:\Program Files\Java\jdk1.8.0_51\lib\tools.jar;F:\CommonDevelop\maven\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;F:\CommonDevelop\maven\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;F:\CommonDevelop\maven\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;F:\CommonDevelop\maven\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\CommonDevelop\maven\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;F:\CommonDevelop\maven\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;F:\CommonDevelop\maven\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;F:\CommonDevelop\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;F:\CommonDevelop\maven\repository\asm\asm\3.1\asm-3.1.jar;F:\CommonDevelop\maven\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;F:\CommonDevelop\maven\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;F:\CommonDevelop\maven\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;F:\CommonDevelop\maven\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;F:\CommonDevelop\maven\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;F:\CommonDevelop\maven\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;F:\CommonDevelop\maven\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;F:\CommonDevelop\maven\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;F:\CommonDevelop\maven\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;F:\CommonDevelop\maven\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;F:\CommonDevelop\maven\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;F:\CommonDevelop\maven\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;F:\CommonDevelop\maven\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;F:\CommonDevelop\maven\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;F:\CommonDevelop\maven\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;F:\CommonDevelop\maven\repository\org\tukaani\xz\1.0\xz-1.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-auth\2.7.3\hadoop-auth-2.7.3.jar;F:\CommonDevelop\maven\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;F:\CommonDevelop\maven\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;F:\CommonDevelop\maven\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;F:\CommonDevelop\maven\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;F:\CommonDevelop\maven\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-framework\2.7.1\curator-framework-2.7.1.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-server\1.1.2\hbase-server-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-procedure\1.1.2\hbase-procedure-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-common\1.1.2\hbase-common-1.1.2-tests.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-prefix-tree\1.1.2\hbase-prefix-tree-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-hadoop-compat\1.1.2\hbase-hadoop-compat-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-hadoop2-compat\1.1.2\hbase-hadoop2-compat-1.1.2.jar;F:\CommonDevelop\maven\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-jaxrs\1.9.13\jackson-jaxrs-1.9.13.jar;F:\CommonDevelop\maven\repository\org\jamon\jamon-runtime\2.3.1\jamon-runtime-2.3.1.jar;F:\CommonDevelop\maven\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;F:\CommonDevelop\maven\repository\com\lmax\disruptor\3.3.0\disruptor-3.3.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-client\2.5.1\hadoop-client-2.5.1.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.5.1\hadoop-mapreduce-client-app-2.5.1.jar;F:\CommonDevelop\maven\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-client\1.1.2\hbase-client-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-annotations\1.1.2\hbase-annotations-1.1.2.jar;F:\CommonDevelop\maven\repository\org\jruby\jcodings\jcodings\1.0.8\jcodings-1.0.8.jar;F:\CommonDevelop\maven\repository\org\jruby\joni\joni\2.1.2\joni-2.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-common\1.1.2\hbase-common-1.1.2.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-protocol\1.1.2\hbase-protocol-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;F:\CommonDevelop\maven\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.library.path=D:\Program Files\Java\jdk1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\Administrator\product\11.2.0\client_1\bin;D:\app\Administrator\product\11.2.0\client_1;D:\Ruby23-x64\bin;D:\Program Files\Java\jdk1.8.0_51\bin;E:\Mysql\soft\MyCAT\mycat\bin;C:\ProgramData\Oracle\Java\javapath;D:\MySoftware\ant\apache-ant-1.9.6\bin;D:\Program Files\Java\jdk1.7.0_45\bin;E:\Ambari\hadoop-home\hadoop2.6\bin;D:\MySoftware\instantclient_plsql\instantclient-basic-nt-12.1.0.2.0\instantclient_12_1\NETWORD\ADMIN;SIMPLIFIED CHINESE_CHINA.ZHS16GBK\;D:\MySoftware\maven\apache-maven-3.0.5\bin;D:\Program Files\CollabNet\Subversion Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\Program Files\VisualSVN Server\bin;D:\Program Files\nodejs\;D:\Program Files (x86)\scala\bin;D:\ProgramData\Anaconda2;C:\Users\Administrator\AppData\Roaming\npm;.
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.compiler=<NA>
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.name=Windows 7
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.arch=amd64
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.version=6.1
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.name=Administrator
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.home=C:\Users\Administrator
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.dir=F:\CommonDevelop\hadoop\project\zoe\php
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.ZooKeeper.<init>(438) | Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase
+[php][INFO] [2017-06-27 16:12:16] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:17] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:12:17] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:12:18] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:19] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:12:19] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:12:20] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:21] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:12:21] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:12:22] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:23] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:12:24] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:25] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:12:26] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:12:27] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:28] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:12:29] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:30] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:12:31] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:32] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:12:33] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:12:34] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:12:34] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][ERROR] [2017-06-27 16:12:34] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper exists failed after 4 attempts
+[php][WARN] [2017-06-27 16:12:34] org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(544) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to set watcher on znode (/hbase/hbaseid)
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:12:34] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][WARN] [2017-06-27 16:12:34] org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(110) | Can't retrieve clusterId from Zookeeper
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][INFO] [2017-06-27 16:13:21] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.<init>(120) | Process identifier=hconnection-0x6f7923a5 connecting to ZooKeeper ensemble=localhost:2181
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:host.name=YF-changjinJ.zysoft.com.cn
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.version=1.8.0_51
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.vendor=Oracle Corporation
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.home=D:\Program Files\Java\jdk1.8.0_51\jre
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.class.path=D:\Program Files\Java\jdk1.8.0_51\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\deploy.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\access-bridge-64.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\cldrdata.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\dnsns.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\jaccess.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\jfxrt.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\localedata.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\nashorn.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunec.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunjce_provider.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunmscapi.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\sunpkcs11.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\ext\zipfs.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\javaws.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jfxswt.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\management-agent.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\plugin.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_51\jre\lib\rt.jar;F:\CommonDevelop\hadoop\project\zoe\php\target\classes;F:\CommonDevelop\maven\repository\org\springframework\spring-core\4.1.9.RELEASE\spring-core-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-web\4.1.9.RELEASE\spring-web-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-aop\4.1.9.RELEASE\spring-aop-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-tx\4.1.9.RELEASE\spring-tx-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-webmvc\4.1.9.RELEASE\spring-webmvc-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-expression\4.1.9.RELEASE\spring-expression-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-context\4.1.9.RELEASE\spring-context-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-beans\4.1.9.RELEASE\spring-beans-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-orm\4.1.9.RELEASE\spring-orm-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-jdbc\4.1.9.RELEASE\spring-jdbc-4.1.9.RELEASE.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-core\4.3.8.Final\hibernate-core-4.3.8.Final.jar;F:\CommonDevelop\maven\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;F:\CommonDevelop\maven\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;F:\CommonDevelop\maven\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;F:\CommonDevelop\maven\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;F:\CommonDevelop\maven\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;F:\CommonDevelop\maven\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;F:\CommonDevelop\maven\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;F:\CommonDevelop\maven\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;F:\CommonDevelop\maven\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;F:\CommonDevelop\maven\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-ehcache\4.3.8.Final\hibernate-ehcache-4.3.8.Final.jar;F:\CommonDevelop\maven\repository\net\sf\ehcache\ehcache-core\2.4.3\ehcache-core-2.4.3.jar;F:\CommonDevelop\maven\repository\net\sf\ehcache\ehcache\2.9.0\ehcache-2.9.0.jar;F:\CommonDevelop\maven\repository\org\hibernate\hibernate-validator\5.1.2.Final\hibernate-validator-5.1.2.Final.jar;F:\CommonDevelop\maven\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;F:\CommonDevelop\maven\repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar;F:\CommonDevelop\maven\repository\org\slf4j\slf4j-api\1.7.7\slf4j-api-1.7.7.jar;F:\CommonDevelop\maven\repository\org\slf4j\slf4j-log4j12\1.7.7\slf4j-log4j12-1.7.7.jar;F:\CommonDevelop\maven\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;F:\CommonDevelop\maven\repository\mysql\mysql-connector-java\5.1.34\mysql-connector-java-5.1.34.jar;F:\CommonDevelop\maven\repository\com\alibaba\druid\0.2.9\druid-0.2.9.jar;F:\CommonDevelop\maven\repository\com\alibaba\fastjson\1.2.3\fastjson-1.2.3.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.0\jackson-annotations-2.5.0.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-core\2.5.0\jackson-core-2.5.0.jar;F:\CommonDevelop\maven\repository\com\fasterxml\jackson\core\jackson-databind\2.5.0\jackson-databind-2.5.0.jar;F:\CommonDevelop\maven\repository\org\aspectj\aspectjweaver\1.8.4\aspectjweaver-1.8.4.jar;F:\CommonDevelop\maven\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;F:\CommonDevelop\maven\repository\commons-fileupload\commons-fileupload\1.3.1\commons-fileupload-1.3.1.jar;F:\CommonDevelop\maven\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;F:\CommonDevelop\maven\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop\2.3.0.RELEASE-hadoop26\spring-data-hadoop-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-core\2.3.0.RELEASE-hadoop26\spring-data-hadoop-core-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-context-support\4.2.4.RELEASE\spring-context-support-4.2.4.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-hive\2.3.0.RELEASE-hadoop26\spring-data-hadoop-hive-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\batch\spring-batch-core\3.0.6.RELEASE\spring-batch-core-3.0.6.RELEASE.jar;F:\CommonDevelop\maven\repository\com\ibm\jbatch\com.ibm.jbatch-tck-spi\1.0\com.ibm.jbatch-tck-spi-1.0.jar;F:\CommonDevelop\maven\repository\javax\batch\javax.batch-api\1.0\javax.batch-api-1.0.jar;F:\CommonDevelop\maven\repository\com\thoughtworks\xstream\xstream\1.4.7\xstream-1.4.7.jar;F:\CommonDevelop\maven\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;F:\CommonDevelop\maven\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;F:\CommonDevelop\maven\repository\org\springframework\batch\spring-batch-infrastructure\3.0.6.RELEASE\spring-batch-infrastructure-3.0.6.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\retry\spring-retry\1.1.0.RELEASE\spring-retry-1.1.0.RELEASE.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-batch\2.3.0.RELEASE-hadoop26\spring-data-hadoop-batch-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-hbase\2.3.0.RELEASE-hadoop26\spring-data-hadoop-hbase-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-pig\2.3.0.RELEASE-hadoop26\spring-data-hadoop-pig-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-store\2.3.0.RELEASE-hadoop26\spring-data-hadoop-store-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-common\2.6.0\hadoop-yarn-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-api\2.6.0\hadoop-yarn-api-2.6.0.jar;F:\CommonDevelop\maven\repository\javax\xml\bind\jaxb-api\2.2.2\jaxb-api-2.2.2.jar;F:\CommonDevelop\maven\repository\javax\xml\stream\stax-api\1.0-2\stax-api-1.0-2.jar;F:\CommonDevelop\maven\repository\javax\activation\activation\1.1\activation-1.1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-client\1.9\jersey-client-1.9.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-xc\1.9.13\jackson-xc-1.9.13.jar;F:\CommonDevelop\maven\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;F:\CommonDevelop\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;F:\CommonDevelop\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\contribs\jersey-guice\1.9\jersey-guice-1.9.jar;F:\CommonDevelop\maven\repository\org\springframework\spring-messaging\4.2.4.RELEASE\spring-messaging-4.2.4.RELEASE.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-distcp\2.6.0\hadoop-distcp-2.6.0.jar;F:\CommonDevelop\maven\repository\org\kitesdk\kite-data-core\1.0.0\kite-data-core-1.0.0.jar;F:\CommonDevelop\maven\repository\org\kitesdk\kite-hadoop-compatibility\1.0.0\kite-hadoop-compatibility-1.0.0.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-avro\1.4.1\parquet-avro-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-column\1.4.1\parquet-column-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-common\1.4.1\parquet-common-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-encoding\1.4.1\parquet-encoding-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-generator\1.4.1\parquet-generator-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-hadoop\1.4.1\parquet-hadoop-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-jackson\1.4.1\parquet-jackson-1.4.1.jar;F:\CommonDevelop\maven\repository\com\twitter\parquet-format\2.0.0\parquet-format-2.0.0.jar;F:\CommonDevelop\maven\repository\net\sf\opencsv\opencsv\2.3\opencsv-2.3.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-jexl\2.1.1\commons-jexl-2.1.1.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-hdfs\2.6.0\hadoop-hdfs-2.6.0.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty\6.1.26\jetty-6.1.26.jar;F:\CommonDevelop\maven\repository\commons-daemon\commons-daemon\1.0.13\commons-daemon-1.0.13.jar;F:\CommonDevelop\maven\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;F:\CommonDevelop\maven\repository\tomcat\jasper-runtime\5.5.23\jasper-runtime-5.5.23.jar;F:\CommonDevelop\maven\repository\commons-el\commons-el\1.0\commons-el-1.0.jar;F:\CommonDevelop\maven\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar;F:\CommonDevelop\maven\repository\org\htrace\htrace-core\3.0.4\htrace-core-3.0.4.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-core\2.6.0\hadoop-mapreduce-client-core-2.6.0.jar;F:\CommonDevelop\maven\repository\org\springframework\data\spring-data-hadoop-config\2.3.0.RELEASE-hadoop26\spring-data-hadoop-config-2.3.0.RELEASE-hadoop26.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-streaming\2.6.0\hadoop-streaming-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-jobclient\2.6.0\hadoop-mapreduce-client-jobclient-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-common\2.6.0\hadoop-mapreduce-client-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-client\2.6.0\hadoop-yarn-client-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-server-common\2.6.0\hadoop-yarn-server-common-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-shuffle\2.6.0\hadoop-mapreduce-client-shuffle-2.6.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-yarn-server-nodemanager\2.6.0\hadoop-yarn-server-nodemanager-2.6.0.jar;F:\CommonDevelop\maven\repository\org\fusesource\leveldbjni\leveldbjni-all\1.8\leveldbjni-all-1.8.jar;F:\CommonDevelop\maven\repository\org\xerial\snappy\snappy-java\1.1.0\snappy-java-1.1.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-common\2.7.3\hadoop-common-2.7.3.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-annotations\2.7.3\hadoop-annotations-2.7.3.jar;D:\Program Files\Java\jdk1.8.0_51\lib\tools.jar;F:\CommonDevelop\maven\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;F:\CommonDevelop\maven\repository\commons-cli\commons-cli\1.2\commons-cli-1.2.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-math3\3.1.1\commons-math3-3.1.1.jar;F:\CommonDevelop\maven\repository\xmlenc\xmlenc\0.52\xmlenc-0.52.jar;F:\CommonDevelop\maven\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;F:\CommonDevelop\maven\repository\commons-net\commons-net\3.1\commons-net-3.1.jar;F:\CommonDevelop\maven\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-core\1.9\jersey-core-1.9.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-json\1.9\jersey-json-1.9.jar;F:\CommonDevelop\maven\repository\org\codehaus\jettison\jettison\1.1\jettison-1.1.jar;F:\CommonDevelop\maven\repository\com\sun\xml\bind\jaxb-impl\2.2.3-1\jaxb-impl-2.2.3-1.jar;F:\CommonDevelop\maven\repository\com\sun\jersey\jersey-server\1.9\jersey-server-1.9.jar;F:\CommonDevelop\maven\repository\asm\asm\3.1\asm-3.1.jar;F:\CommonDevelop\maven\repository\net\java\dev\jets3t\jets3t\0.9.0\jets3t-0.9.0.jar;F:\CommonDevelop\maven\repository\org\apache\httpcomponents\httpcore\4.1.2\httpcore-4.1.2.jar;F:\CommonDevelop\maven\repository\com\jamesmurty\utils\java-xmlbuilder\0.4\java-xmlbuilder-0.4.jar;F:\CommonDevelop\maven\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;F:\CommonDevelop\maven\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar;F:\CommonDevelop\maven\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;F:\CommonDevelop\maven\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;F:\CommonDevelop\maven\repository\commons-beanutils\commons-beanutils-core\1.8.0\commons-beanutils-core-1.8.0.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-core-asl\1.9.13\jackson-core-asl-1.9.13.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.13\jackson-mapper-asl-1.9.13.jar;F:\CommonDevelop\maven\repository\org\apache\avro\avro\1.7.4\avro-1.7.4.jar;F:\CommonDevelop\maven\repository\com\thoughtworks\paranamer\paranamer\2.3\paranamer-2.3.jar;F:\CommonDevelop\maven\repository\com\google\protobuf\protobuf-java\2.5.0\protobuf-java-2.5.0.jar;F:\CommonDevelop\maven\repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;F:\CommonDevelop\maven\repository\com\jcraft\jsch\0.1.42\jsch-0.1.42.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-client\2.7.1\curator-client-2.7.1.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-recipes\2.7.1\curator-recipes-2.7.1.jar;F:\CommonDevelop\maven\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;F:\CommonDevelop\maven\repository\org\apache\htrace\htrace-core\3.1.0-incubating\htrace-core-3.1.0-incubating.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-compress\1.4.1\commons-compress-1.4.1.jar;F:\CommonDevelop\maven\repository\org\tukaani\xz\1.0\xz-1.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-auth\2.7.3\hadoop-auth-2.7.3.jar;F:\CommonDevelop\maven\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;F:\CommonDevelop\maven\repository\org\apache\directory\server\apacheds-kerberos-codec\2.0.0-M15\apacheds-kerberos-codec-2.0.0-M15.jar;F:\CommonDevelop\maven\repository\org\apache\directory\server\apacheds-i18n\2.0.0-M15\apacheds-i18n-2.0.0-M15.jar;F:\CommonDevelop\maven\repository\org\apache\directory\api\api-asn1-api\1.0.0-M20\api-asn1-api-1.0.0-M20.jar;F:\CommonDevelop\maven\repository\org\apache\directory\api\api-util\1.0.0-M20\api-util-1.0.0-M20.jar;F:\CommonDevelop\maven\repository\org\apache\curator\curator-framework\2.7.1\curator-framework-2.7.1.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-server\1.1.2\hbase-server-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-procedure\1.1.2\hbase-procedure-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-common\1.1.2\hbase-common-1.1.2-tests.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-prefix-tree\1.1.2\hbase-prefix-tree-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-hadoop-compat\1.1.2\hbase-hadoop-compat-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-hadoop2-compat\1.1.2\hbase-hadoop2-compat-1.1.2.jar;F:\CommonDevelop\maven\repository\com\yammer\metrics\metrics-core\2.2.0\metrics-core-2.2.0.jar;F:\CommonDevelop\maven\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty-sslengine\6.1.26\jetty-sslengine-6.1.26.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\servlet-api-2.5\6.1.14\servlet-api-2.5-6.1.14.jar;F:\CommonDevelop\maven\repository\org\codehaus\jackson\jackson-jaxrs\1.9.13\jackson-jaxrs-1.9.13.jar;F:\CommonDevelop\maven\repository\org\jamon\jamon-runtime\2.3.1\jamon-runtime-2.3.1.jar;F:\CommonDevelop\maven\repository\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar;F:\CommonDevelop\maven\repository\com\lmax\disruptor\3.3.0\disruptor-3.3.0.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-client\2.5.1\hadoop-client-2.5.1.jar;F:\CommonDevelop\maven\repository\org\apache\hadoop\hadoop-mapreduce-client-app\2.5.1\hadoop-mapreduce-client-app-2.5.1.jar;F:\CommonDevelop\maven\repository\com\github\stephenc\findbugs\findbugs-annotations\1.3.9-1\findbugs-annotations-1.3.9-1.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-client\1.1.2\hbase-client-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-annotations\1.1.2\hbase-annotations-1.1.2.jar;F:\CommonDevelop\maven\repository\org\jruby\jcodings\jcodings\1.0.8\jcodings-1.0.8.jar;F:\CommonDevelop\maven\repository\org\jruby\joni\joni\2.1.2\joni-2.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-common\1.1.2\hbase-common-1.1.2.jar;F:\CommonDevelop\maven\repository\org\mortbay\jetty\jetty-util\6.1.26\jetty-util-6.1.26.jar;F:\CommonDevelop\maven\repository\org\apache\hbase\hbase-protocol\1.1.2\hbase-protocol-1.1.2.jar;F:\CommonDevelop\maven\repository\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;F:\CommonDevelop\maven\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.library.path=D:\Program Files\Java\jdk1.8.0_51\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\app\Administrator\product\11.2.0\client_1\bin;D:\app\Administrator\product\11.2.0\client_1;D:\Ruby23-x64\bin;D:\Program Files\Java\jdk1.8.0_51\bin;E:\Mysql\soft\MyCAT\mycat\bin;C:\ProgramData\Oracle\Java\javapath;D:\MySoftware\ant\apache-ant-1.9.6\bin;D:\Program Files\Java\jdk1.7.0_45\bin;E:\Ambari\hadoop-home\hadoop2.6\bin;D:\MySoftware\instantclient_plsql\instantclient-basic-nt-12.1.0.2.0\instantclient_12_1\NETWORD\ADMIN;SIMPLIFIED CHINESE_CHINA.ZHS16GBK\;D:\MySoftware\maven\apache-maven-3.0.5\bin;D:\Program Files\CollabNet\Subversion Client;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\TortoiseSVN\bin;D:\Program Files\SlikSvn\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;D:\Program Files\VisualSVN Server\bin;D:\Program Files\nodejs\;D:\Program Files (x86)\scala\bin;D:\ProgramData\Anaconda2;C:\Users\Administrator\AppData\Roaming\npm;.
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:java.compiler=<NA>
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.name=Windows 7
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.arch=amd64
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:os.version=6.1
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.name=Administrator
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.home=C:\Users\Administrator
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.Environment.logEnv(100) | Client environment:user.dir=F:\CommonDevelop\hadoop\project\zoe\php
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.ZooKeeper.<init>(438) | Initiating client connection, connectString=localhost:2181 sessionTimeout=90000 watcher=hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase
+[php][INFO] [2017-06-27 16:13:21] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:22] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:22] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:13:23] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:24] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:24] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:13:25] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:26] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:26] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:13:27] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:28] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:29] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:30] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:30] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][INFO] [2017-06-27 16:13:31] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:32] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:33] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:34] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:36] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:37] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:38] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:39] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:39] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+[php][ERROR] [2017-06-27 16:13:39] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper exists failed after 4 attempts
+[php][WARN] [2017-06-27 16:13:39] org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(544) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to set watcher on znode (/hbase/hbaseid)
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:13:39] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][WARN] [2017-06-27 16:13:39] org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(110) | Can't retrieve clusterId from Zookeeper
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1045)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:221)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:541)
+	at org.apache.hadoop.hbase.zookeeper.ZKClusterId.readClusterIdZNode(ZKClusterId.java:65)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getClusterId(ZooKeeperRegistry.java:105)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.retrieveClusterId(ConnectionManager.java:879)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.<init>(ConnectionManager.java:635)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.apache.hadoop.hbase.client.ConnectionFactory.createConnection(ConnectionFactory.java:238)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:420)
+	at org.apache.hadoop.hbase.client.ConnectionManager.createConnection(ConnectionManager.java:413)
+	at org.apache.hadoop.hbase.client.ConnectionManager.getConnectionInternal(ConnectionManager.java:291)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:222)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:173)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][INFO] [2017-06-27 16:13:40] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:41] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:41] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][INFO] [2017-06-27 16:13:42] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:43] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:43] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][INFO] [2017-06-27 16:13:44] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:45] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:45] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][INFO] [2017-06-27 16:13:46] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:47] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:48] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:49] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:49] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][INFO] [2017-06-27 16:13:50] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:51] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:52] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:53] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:55] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:56] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:13:57] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:13:58] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:13:58] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][ERROR] [2017-06-27 16:13:58] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper getChildren failed after 4 attempts
+[php][WARN] [2017-06-27 16:13:58] org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(556) | Got ZK exception org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+[php][INFO] [2017-06-27 16:13:59] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:00] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:00] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:01] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:02] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:02] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:03] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:04] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:04] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:05] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:06] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:07] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:08] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:08] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:09] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:10] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:11] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:12] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:13] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:14] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:16] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:17] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:17] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][ERROR] [2017-06-27 16:14:17] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper getData failed after 4 attempts
+[php][WARN] [2017-06-27 16:14:17] org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(753) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to get data of znode /hbase/meta-region-server
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:14:17] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][INFO] [2017-06-27 16:14:18] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:19] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:19] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:20] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:21] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:21] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:22] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:23] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:23] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:24] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:25] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:26] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:27] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:27] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:28] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:29] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:30] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:31] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:32] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:33] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:34] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:35] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:36] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][ERROR] [2017-06-27 16:14:36] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper getData failed after 4 attempts
+[php][WARN] [2017-06-27 16:14:36] org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(753) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to get data of znode /hbase/meta-region-server
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:14:36] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][INFO] [2017-06-27 16:14:37] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:38] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:38] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:39] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:40] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:40] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:41] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:42] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:42] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:43] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:44] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:45] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:46] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:46] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:47] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:48] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:49] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:50] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:51] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:52] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:14:53] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:54] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:55] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][ERROR] [2017-06-27 16:14:55] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper getData failed after 4 attempts
+[php][WARN] [2017-06-27 16:14:55] org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(753) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to get data of znode /hbase/meta-region-server
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:14:55] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][INFO] [2017-06-27 16:14:56] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:57] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:57] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:14:58] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:14:59] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:14:59] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:15:00] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:01] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:15:01] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:15:02] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:03] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:15:04] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:05] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:15:05] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][INFO] [2017-06-27 16:15:06] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:07] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:15:08] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:09] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:15:10] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:11] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][INFO] [2017-06-27 16:15:12] org.apache.zookeeper.ClientCnxn$SendThread.logStartConnect(975) | Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+[php][WARN] [2017-06-27 16:15:13] org.apache.zookeeper.ClientCnxn$SendThread.run(1102) | Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+[php][WARN] [2017-06-27 16:15:14] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(275) | Possibly transient ZooKeeper, quorum=localhost:2181, exception=org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+[php][ERROR] [2017-06-27 16:15:14] org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.retryOrThrow(277) | ZooKeeper getData failed after 4 attempts
+[php][WARN] [2017-06-27 16:15:14] org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(753) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Unable to get data of znode /hbase/meta-region-server
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)
+[php][ERROR] [2017-06-27 16:15:14] org.apache.hadoop.hbase.zookeeper.ZooKeeperWatcher.keeperException(648) | hconnection-0x6f7923a50x0, quorum=localhost:2181, baseZNode=/hbase Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/meta-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.getData(ZooKeeper.java:1155)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.getData(RecoverableZooKeeper.java:359)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.getData(ZKUtil.java:745)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionState(MetaTableLocator.java:482)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.getMetaRegionLocation(MetaTableLocator.java:168)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:600)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:580)
+	at org.apache.hadoop.hbase.zookeeper.MetaTableLocator.blockUntilAvailable(MetaTableLocator.java:559)
+	at org.apache.hadoop.hbase.client.ZooKeeperRegistry.getMetaRegionLocation(ZooKeeperRegistry.java:61)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateMeta(ConnectionManager.java:1185)
+	at org.apache.hadoop.hbase.client.ConnectionManager$HConnectionImplementation.locateRegion(ConnectionManager.java:1152)
+	at org.apache.hadoop.hbase.client.RpcRetryingCallerWithReadReplicas.getRegionLocations(RpcRetryingCallerWithReadReplicas.java:300)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:151)
+	at org.apache.hadoop.hbase.client.ScannerCallableWithReplicas.call(ScannerCallableWithReplicas.java:59)
+	at org.apache.hadoop.hbase.client.RpcRetryingCaller.callWithoutRetries(RpcRetryingCaller.java:200)
+	at org.apache.hadoop.hbase.client.ClientScanner.call(ClientScanner.java:320)
+	at org.apache.hadoop.hbase.client.ClientScanner.nextScanner(ClientScanner.java:295)
+	at org.apache.hadoop.hbase.client.ClientScanner.initializeScannerInConstruction(ClientScanner.java:160)
+	at org.apache.hadoop.hbase.client.ClientScanner.<init>(ClientScanner.java:155)
+	at org.apache.hadoop.hbase.client.HTable.getScanner(HTable.java:821)
+	at org.apache.hadoop.hbase.MetaTableAccessor.fullScan(MetaTableAccessor.java:602)
+	at org.apache.hadoop.hbase.MetaTableAccessor.tableExists(MetaTableAccessor.java:366)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:303)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.tableExists(HBaseAdmin.java:313)
+	at com.antin.util.HBaseHepler.isExist(HBaseHepler.java:174)
+	at com.antin.util.HBaseHepler.main(HBaseHepler.java:43)

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:hdp="http://www.springframework.org/schema/hadoop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/hadoop
+    http://www.springframework.org/schema/hadoop/spring-hadoop.xsd">
+
+    <!-- 默认的hadoopConfiguration,默认ID为hadoopConfiguration，且对于file-system等不需指定ref，自动注入hadoopConfiguration -->
+<!--    <hdp:configuration>
+        dfs.client.socket-timeout=600000
+        ha.zookeeper.quorum=zoe-002:2181,zoe-003:2181,zoe-004:2181
+        ha.zookeeper.session-timeout.ms=300000
+        dfs.nameservices=zoe-cluster
+        dfs.ha.namenodes.zoe-cluster=zoe-001,zoe-002
+        dfs.namenode.rpc-address.zoe-cluster.nn1=zoe-001:8020
+        dfs.namenode.http-address.zoe-cluster.nn1=zoe-001:50070
+        dfs.namenode.rpc-address.zoe-cluster.nn2=zoe-002:8020
+        dfs.namenode.http-address.zoe-cluster.nn2=zoe-002:50070
+        dfs.client.failover.proxy.provider.zoe-cluster=org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider
+        fs.defaultFS=hdfs://zoe-cluster
+    </hdp:configuration>-->
+    <hdp:configuration resources="classpath:/hadoop/hbase-site.xml" />
+
+
+    <!-- 配置zookeeper地址和端口 -->
+    <hdp:hbase-configuration configuration-ref="hadoopConfiguration" zk-quorum="192.168.14.83,192.168.14.84,192.168.14.85" zk-port="2181">
+        hbase.rootdir=hdfs://zoe-cluster/hbase
+        hbase.cluster.distributed=true
+        zookeeper.session.timeout=30000
+        hbase.hregion.majorcompaction=0
+        hbase.regionserver.regionSplitLimit=1
+        dfs.client.socket-timeout=600000
+    </hdp:hbase-configuration>
+
+    <!-- hadoop hdfs 操作类FileSystem,用来读写HDFS文件 -->
+    <hdp:file-system id="hadoop-cluster" configuration-ref="hadoopConfiguration"/>
+
+    <!-- 配置HbaseTemplate -->
+    <bean id="hbaseTemplate" class="org.springframework.data.hadoop.hbase.HbaseTemplate">
+        <property name="configuration" ref="hbaseConfiguration"/>
+    </bean>
+</beans>

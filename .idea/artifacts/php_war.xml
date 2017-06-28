@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="php:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="php.war">
+      <element id="artifact" artifact-name="php:war exploded" />
+    </root>
+  </artifact>
+</component>

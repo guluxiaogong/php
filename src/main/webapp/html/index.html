@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>居民健康画像</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="bootstrap-3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+    <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        internal.init();
+    });
+</script>
+<body>
+<!-- Fixed navbar -->
+<!--<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">居民健康画像</a>
+        </div>
+    </div>
+</nav>-->
+
+<div class="container theme-showcase" role="main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="输入用户姓名查询..." id="inputText">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false"> 例 子 <span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right" id="dropdownLi"></ul>
+                </div><!-- /btn-group -->
+                <span class="input-group-btn">
+                     <button class="btn btn-default" type="button" id="persionSearch"> 查 询</button>
+                </span>
+
+            </div><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+    </div>
+    <div class="person-box" style="">
+        <!--        <div style='width:110px;height: 38px; background-color: #0be386;border-radius:10px;position: absolute;left:889px;top:228px;'>
+                    <label style='display:block;font-size:24px; text-align:center;color:white;font-family:宋体'>
+                        高血压
+                    </label>
+                </div>-->
+    </div>
+</div>
+<div class="loading"></div>
+</body>
+</html>
