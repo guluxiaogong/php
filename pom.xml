@@ -10,7 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring.version>4.1.9.RELEASE</spring.version>
+        <spring.version>4.2.6.RELEASE</spring.version>
         <hibernate.version>4.3.8.Final</hibernate.version>
         <jackson.version>2.5.0</jackson.version>
         <!-- log4j日志文件管理包版本 -->
@@ -372,6 +372,25 @@
                     <groupId>io.netty</groupId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <!--netty-socketio-->
+        <dependency>
+            <groupId>com.corundumstudio.socketio</groupId>
+            <artifactId>netty-socketio</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+
+        <!--spring4集成web-socket-->
+        <dependency>
+            <groupId>javax.websocket</groupId>
+            <artifactId>javax.websocket-api</artifactId>
+            <version>1.1</version>
+            <scope>provided</scope> <!-- 注意,scope必须为provided,否则runtime会冲突，如果使用tomcat 8,还需要将TOMCAT_HOME/lib下的javax.websocket-api.jar一并删除 -->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-websocket</artifactId>
+            <version>4.2.6.RELEASE</version>
         </dependency>
     </dependencies>
 
